@@ -1,0 +1,155 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.Margen
+{
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: -8px;
+  margin-bottom: 0px;
+
+}
+
+.cuerpo
+{
+  background: #EBD3FF;
+  height: 888px;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -21px;
+  margin-bottom: auto;
+  box-shadow: 0px 0px 40px 5px #000;
+}
+
+.apedido
+{
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.pie
+{
+  background: #76377E;
+  height: 100px;
+  width: 950px;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8px;
+  margin-bottom: auto;
+  box-shadow: 0px 10px 15px 0px #000;
+}
+
+.facebook a
+{
+  color: #DEC6F1;
+}
+
+.facebook a .fa-inverse
+{
+  color: #76377E;
+}
+
+p
+{
+  text-align: justify;
+  color:#70706F;
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  box-shadow: 0px 0px 7px 1px #000;
+}
+
+img
+{
+  max-width: 100%;
+}
+
+.galeria
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin-left: 45px;
+  margin-right: 85px;
+  padding-top: 35px;
+}
+
+.galeria_item
+{
+  width: 80%;
+  margin: 13px;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+}
+
+
+
+ul li { list-style: none; }
+
+@media (min-width:480px) {
+  .galeria_item
+  {
+    width: 48%;
+  }
+}
+
+@media (min-width:768px) {
+  .galeria_item
+  {
+    width: 30%;
+  }
+}
+
+@media (min-width:1024px) {
+  .galeria_item
+  {
+    width: 20%;
+  }
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__img{
+  width: 42%;
+  max-width: 700px;
+}
+
+.modal__boton { position: absolute;
+  top: 1em;
+  right: 1em;
+  z-index: 100;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  background: #76377E;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s; }﻿
